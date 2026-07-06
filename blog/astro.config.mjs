@@ -23,7 +23,7 @@ export default defineConfig({
 		mdx(),
 		sitemap({
 			filter: (page) => {
-				return !page.includes("/blog/") && !page.endsWith("/posts/");
+				return !page.endsWith("/posts/");
 			},
 		}),
 	],
