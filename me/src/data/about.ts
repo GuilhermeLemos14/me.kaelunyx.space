@@ -26,14 +26,14 @@ export const moreAbout: { title: string; description: string }[] = [
 			"Autistic (level 1) with high abilities / giftedness. I learn deeply by observing — sometimes I don't need to ask, I just watch and understand.",
 	},
 	{
-		title: "Therian & Furry",
+		title: "Therian-ally & Furry",
 		description:
-			"I identify strongly with the therian community (animal‑hearted) and I'm also furry. A fursuit is planned for the future. I've had mixed experiences with closed groups, but the identity itself is real for me.",
+			"I identify strongly with the therian community (animal‑hearted), even though I'm not a therian myself, and I'm also furry. A fursuit is planned for the future. I've had mixed experiences with closed groups, but the identity itself is real for me.",
 	},
 	{
 		title: "Music & piano",
 		description:
-			"I'm a pianist who makes covers. My taste is instrumental, cosmic, cinematic — ak+q, Onoken, Sakuzyo, Creo, Kiynaria. Melodies tell complex stories without a single word.",
+			"I'm a pianist who makes covers. My taste is instrumental, cosmic, cinematic — ak+q, Sakuzyo, Onoken, Creo, Kiynaria. Melodies tell complex stories without a single word. I also like rhythm games, especially Arcaea, Phigros, osu! and In Falsus.",
 	},
 	{
 		title: "Dark softie + whimsigoth",
@@ -48,7 +48,7 @@ export const moreAbout: { title: string; description: string }[] = [
 	{
 		title: "Communities & connection",
 		description:
-			"I've tried several spaces (therian, etc.) and found many too closed or performative. I still want to belong — but at my own pace, without having to prove myself constantly. If you value kindness, creativity, gentle connection, or just want to talk, feel free to reach out.",
+			"I've tried several spaces and found many too closed or performative. I still want to belong — but at my own pace, without having to prove myself constantly. If you value kindness, creativity, gentle connection, or just want to talk, feel free to reach out.",
 	},
 ];
 
