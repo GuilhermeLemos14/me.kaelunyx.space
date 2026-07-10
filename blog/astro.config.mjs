@@ -5,9 +5,12 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 
+import site from "./src/data/site";
+const { canonicalURL } = site;
+
 // https://astro.build/config
 export default defineConfig({
-	site: "https://blog.kaelunyx.space",
+	site: canonicalURL,
 	vite: {
 		plugins: [tailwindcss()],
 		resolve: {
@@ -25,6 +28,9 @@ export default defineConfig({
 			filter: (page) => {
 				return !page.endsWith("/post/") && !page.includes("/blog/");
 			},
+			changefreq: "weekly",
+			lastmod: new Date(),
+			customSitemaps: [`${canonicalURL}/rss.xml`],
 		}),
 	],
 });

@@ -6,6 +6,7 @@ export interface SiteData {
 	twitterHandle: string;
 	dateCreated: string;
 	locale: string;
+	canonicalURL: string;
 }
 
 const site: SiteData = {
@@ -15,6 +16,7 @@ const site: SiteData = {
 	twitterHandle: "@Kaelunyx",
 	dateCreated: "2026-01-12T00:00:00-03:00",
 	locale: "en_CA",
+	canonicalURL: "https://blog.kaelunyx.space",
 };
 
 export default site;
