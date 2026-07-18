@@ -60,7 +60,6 @@ const _pronouns: {
 		list: [
 			{ link: "he", pronouns: "he/him" },
 			{ link: "they/them/themself", pronouns: "they/them/themself" },
-			{ link: "xe", pronouns: "xe/xem" },
 		],
 	},
 	Portuguese: {
@@ -71,7 +70,7 @@ const _pronouns: {
 				link: "o,elu,o,delu,nelu,um,elus,delus,nelus,os,uns,co,go,meu,esse,este,",
 				pronouns: "o/elu/o",
 			},
-			{ link: "el&ael", pronouns: "ê/el/e ou ae/ael/e" },
+			{ link: "ael", pronouns: "ae/ael/e" },
 			{ link: "elx", pronouns: "x/elx/x" },
 		],
 	},
