@@ -21,6 +21,10 @@
 		@apply font-bold;
 	}
 
+	h1 {
+		@apply text-center;
+	}
+
 	abbr {
 		@apply cursor-help text-[#b8beff] no-underline;
 
