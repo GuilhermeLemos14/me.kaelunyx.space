@@ -1,13 +1,13 @@
 ---
 import SocialLinks from "@/components/SocialLinks.astro";
-
-const today = new Date();
+import site from "@/data/site";
 ---
 
 <div>
 	<footer>
 		<hr />
-		&copy; {today.getFullYear()} Kaelunyx. All rights reserved.
+		&copy; {new Date().getFullYear()}
+		{site.author}. All rights reserved.
 		<SocialLinks />
 	</footer>
 </div>

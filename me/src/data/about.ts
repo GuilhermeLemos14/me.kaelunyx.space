@@ -15,7 +15,7 @@ export const languages: { level: string; langs: string[]; abbr?: string }[] = [
 	{
 		abbr: "A1",
 		level: "Soon",
-		langs: ["fr-CA"],
+		langs: ["fr", "fr-CA"],
 	},
 ];
 
@@ -38,7 +38,7 @@ export const moreAbout: { title: string; description: string }[] = [
 	{
 		title: "Dark softie + whimsigoth",
 		description:
-			"Dark oversized hoodies, curly growing hair, lava rock bracelet, lapis lazuli pendant. Not emo. Just genuine. I feel deeply but don't cry easily — yet beauty and kindness move me.",
+			"Dark oversized hoodies, curly growing hair, lava rock bracelet, lapis lazuli pendant. Not emo. Just genuine. I feel deeply but don't cry easily — yet beauty and kindness move me. (That's all old info. I'm still working on updating this section.)",
 	},
 	{
 		title: "Values",
@@ -60,6 +60,7 @@ const _pronouns: {
 		list: [
 			{ link: "he", pronouns: "he/him" },
 			{ link: "they/them/themself", pronouns: "they/them/themself" },
+			{ link: "xe", pronouns: "xe/xem" },
 		],
 	},
 	Portuguese: {

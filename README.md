@@ -5,9 +5,9 @@ Have fun! ^^
 
 ## Info
 
-Created by: Guilherme Lemos / Kaelunyx
-Version: v9.1.1
+Created by: Mikaël Bélanger a.k.a Kaelunyx
+Version: v10.3.4 >> v11.0.0 [WIP]
 
 ## License
 
-© 2026 Guilherme Lemos. All rights reserved.
+© 2026 Mikaël Bélanger. All rights reserved.
